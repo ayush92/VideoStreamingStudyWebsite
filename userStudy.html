@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Video Streaming Study
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div class="header" style="font-size:45px;">
+            <img class="soclogo" align="center" src="images/computing.png"/>Video Streaming Study
+        </div>
+        <div class="navbar">
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="userStudy.html">User Study</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="page">
+            <h2 id="algorithms">Algorithms</h2>
+            <p>Below are the desciption of the 2 algorithms used in the study<br>
+            1. The first algorithm refered to as Reactive was simple implementation of DASH and has the following characteristics:
+                <ul><li>Sensitive to throughput</li>
+                    <li>Aggressive to going back up</li>
+                    <li>High average playback rate</li>
+                    <li>Probably stalls</li>
+                </ul>
+            2. The second algorithm refered to as Smooth was a modified, more responsive and adpative implementation of DASH
+                <ul><li>Quick to drop down</li>
+                    <li>Slow to go back up</li>
+                    <li>Lower average playback rate</li>
+                    <li>Avoids stalls</li>
+                </ul>
+            </p>
+            <h2 id="videos">Videos</h2>
+            <p>Below are the descriptions of the pre-recorded videos in each setting
+            <ol><li>The first videos has high levels of impairment and uses the reactive algorithm to stream. The resultant videos was expected to have atleast 4 or more stalls.</li>
+                <li>The second video has the same high levels of impairment as the first one but uses the smooth algorithm to stream instead. The resultant video was expected to have atleast1 or more stalls.</li>
+                <li>The third video has low levels of impairment and uses the reactive algorithm to stream. The resultant video was expected to have atleast 1 or more stalls</li>
+                <li>The fourth video has the same low levels of impairment as the third one but uses the smooth algorithm to stream. The resultant video was expected to have no stalls.</li>
+            </ol>            
+        </div>
+        <div class="footer">
+        </div>
+    </body>
+</html>
