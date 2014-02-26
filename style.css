@@ -1,0 +1,35 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+.navbar
+{
+    border:1px solid black;
+    width:100%;
+}
+.header, .page, .footer, .nav
+{
+    width:940px;
+    //border:1px solid red;
+    margin:0px auto 0px auto;
+}
+.nav ul
+{
+    padding:0;
+    //margin-left:-20px;
+}
+.nav li
+{
+    font-size:17px;
+    margin-right:10px;
+    display:inline;
+}
+.soclogo
+{   
+    align:center;
+    padding:10px 10px 10px 10px;
+}
+.heading
+{
+}
